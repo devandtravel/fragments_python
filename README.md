@@ -142,4 +142,11 @@ You have entered the wrong type of data.<br/>Enter an integer or the word "stop"
 # Jul 6 14:03:01 pid:29440
 </pre></td>
     </tr>
+    <tr>
+        <td>get_prime_numbers_list</td>
+        <td>Returns prime numbers list from 0 to given number</td>
+        <td><pre>number = 30
+# [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+</pre></td>
+    </tr>
 </table>
