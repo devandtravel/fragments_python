@@ -65,4 +65,13 @@ pig_it('Hello world !')
         <td><pre>[1, 56, 32, 6, 56, 34, 86798, 23, 54]
 # [1, 6, 23, 32, 34, 54, 56, 56, 86798]</pre></td>
     </tr>
+    <tr>
+        <td>is_prime</td>
+        <td>Is it number prime or not?</td>
+        <td><pre>17
+# This number is prime
+8
+# This number is not prime
+</pre></td>
+    </tr>
 </table>
