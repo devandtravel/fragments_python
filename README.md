@@ -66,6 +66,9 @@ pig_it('Hello world !')
 # [1, 6, 23, 32, 34, 54, 56, 56, 86798]</pre></td>
     </tr>
     <tr>
+        <td></td>
+    </tr>
+    <tr>
         <td>is_prime</td>
         <td>Is it number prime or not?</td>
         <td><pre>17
@@ -129,6 +132,14 @@ Please enter an integer:
 > s
 You have entered the wrong type of data.<br/>Enter an integer or the word "stop" to exit the program:
 > stop
+</pre></td>
+    </tr>
+    <tr>
+        <td>show_time_of_pid</td>
+        <td>Shows time of process id using regular expression parsing</td>
+        <td><pre>show_time_of_pid(
+"Jul 6 14:01:23 computer.name CRON[29440]: USER (good_user)")<br/>
+# Jul 6 14:03:01 pid:29440
 </pre></td>
     </tr>
 </table>
