@@ -159,15 +159,22 @@ You have entered the wrong type of data.<br/>Enter an integer or the word "stop"
     <tr>
         <td>is_sequence_unic</td>
         <td>Returns True if given sequence is unic of False if given sequence is not unic</td>
-        <td><pre>print (is_sequence_unic([x for x in range(42)]))<br/>
+        <td><pre>print(is_sequence_unic([x for x in range(42)]))<br/>
 # True
 </pre></td>
     </tr>
     <tr>
         <td>contains_duplicate</td>
         <td>Returns True if given nums list contains duplicate or False if given nums list does not contains duplicate</td>
-        <td><pre>print (containsDuplicate([x for x in range(42)]))<br/>
+        <td><pre>print(containsDuplicate([x for x in range(42)]))<br/>
 # False
+</pre></td>
+    </tr>
+    <tr>
+        <td>missing_number</td>
+        <td>Returns missing number in given sequence of natural numbers</td>
+        <td><pre>print(missingNumber([1, 7, 5, 2, 4, 3]))<br/>
+# 6
 </pre></td>
     </tr>
 </table>
