@@ -14,18 +14,34 @@ You can use this fragments in your applications to implement some pieces of func
     <tr>
         <td>pig_it</td>
         <td>Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched</td>
-        <td><pre>pig_it('Pig latin is cool') // igPay atinlay siay oolcay
-pig_it('Hello world !') // elloHay orldway !</pre>
+        <td><pre>pig_it('Pig latin is cool')
+// igPay atinlay siay oolcay
+pig_it('Hello world !')
+// elloHay orldway !</pre>
         </td>
     </tr>
     <tr>
         <td>find_repeating_symbols</td>
         <td>If symbols is repeated add "(" to return, else add ")" to return</td>
-        <td><pre>print(find_repeating_symbols('qqQjaaaa')) // ((()((((</pre></td>
+        <td><pre>print(find_repeating_symbols('qqQjaaaa'))
+// ((()((((</pre></td>
     </tr>
     <tr>
         <td>array2phone</td>
         <td>Converts numbers array to phone number without verification</td>
-        <td><pre>print(array2phone([9, 9, 9, 1, 2, 3, 4, 5, 6, 7])) // (999) 123-4567</pre></td>
+        <td><pre>print(array2phone([9, 9, 9, 1, 2, 3, 4, 5, 6, 7]))
+// (999) 123-4567</pre></td>
+    </tr>
+    <tr>
+        <td>number2cells</td>
+        <td>Converts number to cells without verification</td>
+        <td><pre>Enter cells: 123456789
+```
+---------
+| 1 2 3 |
+| 4 5 6 |
+| 7 8 9 |
+---------
+```</pre></td>
     </tr>
 </table>
