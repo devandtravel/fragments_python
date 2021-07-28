@@ -153,7 +153,7 @@ You have entered the wrong type of data.<br/>Enter an integer or the word "stop"
         <td>args_parser</td>
         <td>Returns list of ingredients provided by command line arguments</td>
         <td><pre>python args_parser.py -i1 pasta -i2 rice<br/>-i3 potato -i4 carrot -i5 onion --salt --pepper True<br/>
-# The ingredients you provided are:<br/>['pasta', 'rice', 'potato', 'carrot', 'onion', 'salt', 'pepper']
+# The ingredients you provided are:<br/>['pasta', 'rice', 'potato', 'carrot',<br/>'onion', 'salt', 'pepper']
 </pre></td>
     </tr>
     <tr>
@@ -161,6 +161,13 @@ You have entered the wrong type of data.<br/>Enter an integer or the word "stop"
         <td>Returns True if given sequence is unic of False if given sequence is not unic</td>
         <td><pre>print (is_sequence_unic([x for x in range(42)]))<br/>
 # True
+</pre></td>
+    </tr>
+    <tr>
+        <td>contains_duplicate</td>
+        <td>Returns True if given nums list contains duplicate or False if given nums list does not contains duplicate</td>
+        <td><pre>print (containsDuplicate([x for x in range(42)]))<br/>
+# False
 </pre></td>
     </tr>
 </table>
