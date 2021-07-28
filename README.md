@@ -83,4 +83,20 @@ pig_it('Hello world !')
 # 765.0
 </pre></td>
     </tr>
+    <tr>
+        <td>vowel_and_consonant</td>
+        <td>Defines vowels and consonants in a string</td>
+        <td><pre>afrhnjil
+```
+vowel
+consonant
+consonant
+consonant
+consonant
+consonant
+vowel
+consonant
+```
+</pre></td>
+    </tr>
 </table>
