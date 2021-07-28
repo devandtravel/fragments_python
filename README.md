@@ -74,4 +74,13 @@ pig_it('Hello world !')
 # This number is not prime
 </pre></td>
     </tr>
+    <tr>
+        <td>calculator</td>
+        <td>Simple calculator with support of "+", "-", "/", "*", "mod", "pow", "div" operators</td>
+        <td><pre>17
+45
+*
+# 765.0
+</pre></td>
+    </tr>
 </table>
