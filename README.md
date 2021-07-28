@@ -86,7 +86,7 @@ pig_it('Hello world !')
     <tr>
         <td>vowel_and_consonant</td>
         <td>Defines vowels and consonants in a string</td>
-        <td><pre>afrhnjil
+        <td><pre>afrhnjil<br/>
 ```
 vowel
 consonant
@@ -99,15 +99,23 @@ consonant
 ```
 </pre></td>
     </tr>
-    </tr>
     <tr>
         <td>filling_list_by_iterator</td>
         <td>Creates a sheet from the entered lines until the entered line equals "."</td>
         <td><pre>aaaaaa
 bbbbbb
 cccccc
-.
+.<br/>
 # ['aaaaaa', 'bbbbbb', 'cccccc']
+</pre></td>
+    </tr>
+    <tr>
+        <td>get_random_menu</td>
+        <td>Creates a random menu from given dictionaries with dishes and prices</td>
+        <td><pre>appetizers = {'country greens': 12, 'onion rings': 13, 'butterbrodt': 46}
+main_courses = {'super potato': 612, 'soup': 143, 'curry': 436}
+desserts = {'shugar': 1, 'donat': 8, 'cake': 4}<br/>
+# ['butterbrodt', 'curry', 'cake'] [46, 436, 4] 486
 </pre></td>
     </tr>
 </table>
