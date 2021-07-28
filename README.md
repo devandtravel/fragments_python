@@ -112,10 +112,23 @@ cccccc
     <tr>
         <td>get_random_menu</td>
         <td>Creates a random menu from given dictionaries with dishes and prices</td>
-        <td><pre>appetizers = {'country greens': 12, 'onion rings': 13, 'butterbrodt': 46}
-main_courses = {'super potato': 612, 'soup': 143, 'curry': 436}
-desserts = {'shugar': 1, 'donat': 8, 'cake': 4}<br/>
+        <td><pre>appetizers =<br/>{'country greens': 12, 'onion rings': 13, 'butterbrodt': 46}
+main_courses =<br/>{'super potato': 612, 'soup': 143, 'curry': 436}
+desserts =<br/>{'shugar': 1, 'donat': 8, 'cake': 4}<br/>
 # ['butterbrodt', 'curry', 'cake'] [46, 436, 4] 486
+</pre></td>
+    </tr>
+    <tr>
+        <td>input_int_number</td>
+        <td>Reads a line until an integer or stop word is entered</td>
+        <td><pre>Please enter an integer:
+> g
+You have entered the wrong type of data.<br/>Enter an integer or the word "stop" to exit the program:
+> 6<br/>
+Please enter an integer:
+> s
+You have entered the wrong type of data.<br/>Enter an integer or the word "stop" to exit the program:
+> stop
 </pre></td>
     </tr>
 </table>
