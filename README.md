@@ -149,4 +149,11 @@ You have entered the wrong type of data.<br/>Enter an integer or the word "stop"
 # [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
 </pre></td>
     </tr>
+    <tr>
+        <td>args_parser</td>
+        <td>Returns list of ingredients provided by command line arguments</td>
+        <td><pre>python args_parser.py -i1 pasta -i2 rice -i3 potato -i4 carrot -i5 onion --salt --pepper True<br/>
+# The ingredients you provided are: ['pasta', 'rice', 'potato', 'carrot', 'onion', 'salt', 'pepper']
+</pre></td>
+    </tr>
 </table>
