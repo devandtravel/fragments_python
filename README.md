@@ -15,22 +15,22 @@ You can use this fragments in your applications to implement some pieces of func
         <td>pig_it</td>
         <td>Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched</td>
         <td><pre>pig_it('Pig latin is cool')
-// igPay atinlay siay oolcay
+# igPay atinlay siay oolcay
 pig_it('Hello world !')
-// elloHay orldway !</pre>
+# elloHay orldway !</pre>
         </td>
     </tr>
     <tr>
         <td>find_repeating_symbols</td>
         <td>If symbols is repeated add "(" to return, else add ")" to return</td>
         <td><pre>print(find_repeating_symbols('qqQjaaaa'))
-// ((()((((</pre></td>
+# ((()((((</pre></td>
     </tr>
     <tr>
         <td>array2phone</td>
         <td>Converts numbers array to phone number without verification</td>
         <td><pre>print(array2phone([9, 9, 9, 1, 2, 3, 4, 5, 6, 7]))
-// (999) 123-4567</pre></td>
+# (999) 123-4567</pre></td>
     </tr>
     <tr>
         <td>number2cells</td>
@@ -45,18 +45,24 @@ pig_it('Hello world !')
 ```</pre></td>
     </tr>
     <tr>
-        <td><h2>algorithms</h2></td>
+        <td><h3>algorithms</h3></td>
     </tr>
     <tr>
-        <td><h3>sorting</h3></td>
+        <td><h4>sort</h4></td>
     </tr>
     <tr>
-        <td><h4>bubble_sort</h4></td>
+        <td><h5>sort_bubble</h5></td>
     </tr>
     <tr>
-        <td>bubble_sort_primitive</td>
+        <td>sort_bubble_primitive</td>
         <td>Bubble sort like a dumb</td>
         <td><pre>[1, 56, 32, 6, 56, 34, 86798, 23, 54]
-// [1, 6, 23, 32, 34, 54, 56, 56, 86798]</pre></td>
+# [1, 6, 23, 32, 34, 54, 56, 56, 86798]</pre></td>
+    </tr>
+    <tr>
+        <td>sort_bubble</td>
+        <td>Bubble sort</td>
+        <td><pre>[1, 56, 32, 6, 56, 34, 86798, 23, 54]
+# [1, 6, 23, 32, 34, 54, 56, 56, 86798]</pre></td>
     </tr>
 </table>
