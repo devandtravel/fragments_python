@@ -44,4 +44,19 @@ pig_it('Hello world !')
 ---------
 ```</pre></td>
     </tr>
+    <tr>
+        <td><h2>algorithms</h2></td>
+    </tr>
+    <tr>
+        <td><h3>sorting</h3></td>
+    </tr>
+    <tr>
+        <td><h4>bubble_sort</h4></td>
+    </tr>
+    <tr>
+        <td>bubble_sort_primitive</td>
+        <td>Bubble sort like a dumb</td>
+        <td><pre>[1, 56, 32, 6, 56, 34, 86798, 23, 54]
+// [1, 6, 23, 32, 34, 54, 56, 56, 86798]</pre></td>
+    </tr>
 </table>
