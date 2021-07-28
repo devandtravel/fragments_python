@@ -1,4 +1,4 @@
-def pigIt(input_string):
+def pig_it(input_string):
     result_string = ''
 
     for word in input_string.split(' '):
@@ -8,5 +8,5 @@ def pigIt(input_string):
     return result_string
 
 
-print(pigIt('Pig latin is cool'))
-print(pigIt('Hello world !'))
+print(pig_it('Pig latin is cool'))
+print(pig_it('Hello world !'))

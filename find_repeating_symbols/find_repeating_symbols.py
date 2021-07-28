@@ -1,4 +1,4 @@
-def findRepeatingSymbols(string):
+def find_repeating_symbols(string):
     word = string.lower()
     result_list = list(')' * len(word))
     if len(set(word)) == len(word):
@@ -14,4 +14,4 @@ def findRepeatingSymbols(string):
     return result
 
 
-print(findRepeatingSymbols('qqQjaaaa'))
+print(find_repeating_symbols('qqQjaaaa'))

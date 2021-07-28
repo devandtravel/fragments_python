@@ -12,15 +12,20 @@ You can use this fragments in your applications to implement some pieces of func
         <th>Usage</th>
     </tr>
     <tr>
-        <td>pigIt</td>
-        <td>Move the first letter of each word to the end of it,<br/>then add "ay" to the end of the word. Leave punctuation marks untouched</td>
-        <td><pre>pigIt('Pig latin is cool') // igPay atinlay siay oolcay
-pigIt('Hello world !') // elloHay orldway !</pre>
+        <td>pig_it</td>
+        <td>Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched</td>
+        <td><pre>pig_it('Pig latin is cool') // igPay atinlay siay oolcay
+pig_it('Hello world !') // elloHay orldway !</pre>
         </td>
     </tr>
     <tr>
-        <td>findRepeatingSymbols</td>
+        <td>find_repeating_symbols</td>
         <td>If symbols is repeated add "(" to return, else add ")" to return</td>
-        <td><pre>print(findRepeatingSymbols('qqQjaaaa')) // ((()((((</pre></td>
+        <td><pre>print(find_repeating_symbols('qqQjaaaa')) // ((()((((</pre></td>
+    </tr>
+    <tr>
+        <td>array2phone</td>
+        <td>Converts numbers array to phone number without verification</td>
+        <td><pre>print(array2phone([9, 9, 9, 1, 2, 3, 4, 5, 6, 7])) // (999) 123-4567</pre></td>
     </tr>
 </table>
