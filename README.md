@@ -99,4 +99,15 @@ consonant
 ```
 </pre></td>
     </tr>
+    </tr>
+    <tr>
+        <td>filling_list_by_iterator</td>
+        <td>Creates a sheet from the entered lines until the entered line equals "."</td>
+        <td><pre>aaaaaa
+bbbbbb
+cccccc
+.
+# ['aaaaaa', 'bbbbbb', 'cccccc']
+</pre></td>
+    </tr>
 </table>
