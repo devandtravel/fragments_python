@@ -12,6 +12,51 @@ You can use this fragments in your applications to implement some pieces of func
         <th>Usage</th>
     </tr>
     <tr>
+        <td><h3>letcode</h3></td>
+    </tr>
+    <tr>
+        <td>find_dissapeared_numbers</td>
+        <td>Given an array nums of n integers where nums[i] is in the range [1, n], return an array of all the integers in the range [1, n] that do not appear in nums</td>
+        <td><pre>nums = [4, 3, 2, 7, 8, 2, 3, 1]<br/>
+# [5, 6]
+</pre></td>
+    </tr>
+    <tr>
+        <td>missing_number</td>
+        <td>Returns missing number in given sequence of natural numbers</td>
+        <td><pre>print(missingNumber([1, 7, 5, 2, 4, 3]))<br/>
+# 6
+</pre></td>
+    </tr>
+    <tr>
+        <td>contains_duplicate</td>
+        <td>Returns True if given nums list contains duplicate or False if given nums list does not contains duplicate</td>
+        <td><pre>print(containsDuplicate([x for x in range(42)]))<br/>
+# False
+</pre></td>
+    </tr>
+    <tr>
+        <td><h3>algorithms</h3></td>
+    </tr>
+    <tr>
+        <td><h4>sort</h4></td>
+    </tr>
+    <tr>
+        <td><h5>sort_bubble</h5></td>
+    </tr>
+    <tr>
+        <td>sort_bubble_primitive</td>
+        <td>Bubble sort like a dumb</td>
+        <td><pre>[1, 56, 32, 6, 56, 34, 86798, 23, 54]
+# [1, 6, 23, 32, 34, 54, 56, 56, 86798]</pre></td>
+    </tr>
+    <tr>
+        <td>sort_bubble</td>
+        <td>Bubble sort</td>
+        <td><pre>[1, 56, 32, 6, 56, 34, 86798, 23, 54]
+# [1, 6, 23, 32, 34, 54, 56, 56, 86798]</pre></td>
+    </tr>
+    <tr>
         <td>pig_it</td>
         <td>Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched</td>
         <td><pre>pig_it('Pig latin is cool')
@@ -43,30 +88,6 @@ pig_it('Hello world !')
 | 7 8 9 |
 ---------
 ```</pre></td>
-    </tr>
-    <tr>
-        <td><h3>algorithms</h3></td>
-    </tr>
-    <tr>
-        <td><h4>sort</h4></td>
-    </tr>
-    <tr>
-        <td><h5>sort_bubble</h5></td>
-    </tr>
-    <tr>
-        <td>sort_bubble_primitive</td>
-        <td>Bubble sort like a dumb</td>
-        <td><pre>[1, 56, 32, 6, 56, 34, 86798, 23, 54]
-# [1, 6, 23, 32, 34, 54, 56, 56, 86798]</pre></td>
-    </tr>
-    <tr>
-        <td>sort_bubble</td>
-        <td>Bubble sort</td>
-        <td><pre>[1, 56, 32, 6, 56, 34, 86798, 23, 54]
-# [1, 6, 23, 32, 34, 54, 56, 56, 86798]</pre></td>
-    </tr>
-    <tr>
-        <td></td>
     </tr>
     <tr>
         <td>is_prime</td>
@@ -161,20 +182,6 @@ You have entered the wrong type of data.<br/>Enter an integer or the word "stop"
         <td>Returns True if given sequence is unic of False if given sequence is not unic</td>
         <td><pre>print(is_sequence_unic([x for x in range(42)]))<br/>
 # True
-</pre></td>
-    </tr>
-    <tr>
-        <td>contains_duplicate</td>
-        <td>Returns True if given nums list contains duplicate or False if given nums list does not contains duplicate</td>
-        <td><pre>print(containsDuplicate([x for x in range(42)]))<br/>
-# False
-</pre></td>
-    </tr>
-    <tr>
-        <td>missing_number</td>
-        <td>Returns missing number in given sequence of natural numbers</td>
-        <td><pre>print(missingNumber([1, 7, 5, 2, 4, 3]))<br/>
-# 6
 </pre></td>
     </tr>
 </table>
