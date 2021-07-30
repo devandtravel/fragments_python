@@ -209,13 +209,67 @@ You have entered the wrong type of data.<br/>Enter an integer or the word "stop"
         <td>get_cumulative_sum_list</td>
         <td>Returns cumulative sum list from digits of given number</td>
         <td><pre>input a number
-436546<br/>
+436546
 # using numpy
 [4, 7, 13, 18, 22, 28]</br>
 input a number
-3456347<br/>
+3456347
 # using list comprehension
 [3, 7, 12, 18, 21, 25, 32]
 </pre></td>
+    </tr>
+    <tr>
+        <td>hangman</td>
+        <td>Game. Guess the word letter by letter and survive</td>
+        <td><pre>H A N G M A N
+Type "play" to play the game, "exit" to quit: play
+
+---
+
+Input a letter: g
+No such letter in the word
+
+---
+
+Input a letter: 6
+It is not an ASCII lowercase letter
+
+---
+
+Input a letter: i
+No such letter in the word
+
+---
+
+Input a letter: p
+
+p-----
+Input a letter: y
+
+py----
+Input a letter: h
+
+py-h--
+Input a letter: n
+
+py-h-n
+Input a letter: o
+
+py-hon
+Input a letter: t
+You guessed the word python!
+You survived!
+
+Type "play" to play the game, "exit" to quit: exit
+
+</pre></td>
+    </tr>
+    <tr>
+        <td>hangman_oop</td>
+        <td>OOP realisation of the HANGMAN game</td>
+    </tr>
+    <tr>
+        <td>hangman_regex</td>
+        <td>RegEx realisation of the HANGMAN game</td>
     </tr>
 </table>
