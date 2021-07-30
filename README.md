@@ -15,6 +15,27 @@ You can use this fragments in your applications to implement some pieces of func
         <td><h3>letcode</h3></td>
     </tr>
     <tr>
+        <td>max_profit</td>
+        <td>You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0</td>
+        <td><pre>prices = [7,1,5,3,6,4]<br/>
+# 5
+</pre></td>
+    </tr>
+    <tr>
+        <td>climb_stairs</td>
+        <td>You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?</td>
+        <td><pre>n = 3<br/>
+# 3
+</pre></td>
+    </tr>
+    <tr>
+        <td>single_number</td>
+        <td>Given a non-empty array of integers nums, every element appears twice except for one. Find that single one. You must implement a solution with a linear runtime complexity and use only constant extra space</td>
+        <td><pre>nums = [4,1,2,1,2]<br/>
+# 4
+</pre></td>
+    </tr>
+    <tr>
         <td>find_dissapeared_numbers</td>
         <td>Given an array nums of n integers where nums[i] is in the range [1, n], return an array of all the integers in the range [1, n] that do not appear in nums</td>
         <td><pre>nums = [4, 3, 2, 7, 8, 2, 3, 1]<br/>
