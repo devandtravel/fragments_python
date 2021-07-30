@@ -205,4 +205,17 @@ You have entered the wrong type of data.<br/>Enter an integer or the word "stop"
 # True
 </pre></td>
     </tr>
+    <tr>
+        <td>get_cumulative_sum_list</td>
+        <td>Returns cumulative sum list from digits of given number</td>
+        <td><pre>input a number
+436546<br/>
+# using numpy
+[4, 7, 13, 18, 22, 28]</br>
+input a number
+3456347<br/>
+# using list comprehension
+[3, 7, 12, 18, 21, 25, 32]
+</pre></td>
+    </tr>
 </table>
