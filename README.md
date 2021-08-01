@@ -15,6 +15,13 @@ You can use this fragments in your applications to implement some pieces of func
         <td><h3>letcode</h3></td>
     </tr>
     <tr>
+        <td>maxSubArray</td>
+        <td>Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum. A subarray is a contiguous part of an array.</td>
+        <td><pre>nums = [-2,1,-3,4,-1,2,1,-5,4]<br/>
+# 6</br>Explanation: [4,-1,2,1] has the largest sum = 6.
+</pre></td>
+    </tr>
+    <tr>
         <td>max_profit</td>
         <td>You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0</td>
         <td><pre>prices = [7,1,5,3,6,4]<br/>
