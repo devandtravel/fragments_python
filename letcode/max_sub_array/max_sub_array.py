@@ -1,3 +1,6 @@
+from typing import List
+
+
 def maxSubArray(self, nums: List[int]) -> int:
     max_sum = nums[0]
     current_sum = nums[0]

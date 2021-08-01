@@ -15,10 +15,21 @@ You can use this fragments in your applications to implement some pieces of func
         <td><h3>letcode</h3></td>
     </tr>
     <tr>
-        <td>maxSubArray</td>
+        <td>sum_range</td>
+        <td>Given an integer array nums, handle multiple queries of the following type: <br/> 1: Calculate the sum of the elements of nums between indices left and right inclusive where left <= right. Implement the NumArray class:<br/>- NumArray(int[] nums) Initializes the object with the integer array nums.<br/>- int sumRange(int left, int right) Returns the sum of the elements of nums between indices left and right inclusive (i.e. nums[left] + nums[left + 1] + ... + nums[right]).</td>
+        <td><pre>["NumArray", "sumRange", "sumRange", "sumRange"]
+[[[-2, 0, 3, -5, 2, -1]], [0, 2], [2, 5], [0, 5]]<br/>
+# [null, 1, -1, -3]</br>Explanation:<br/>NumArray numArray = new NumArray([-2, 0, 3, -5, 2, -1]);
+numArray.sumRange(0, 2); // return (-2) + 0 + 3 = 1
+numArray.sumRange(2, 5); // return 3 + (-5) + 2 + (-1) = -1
+numArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3
+</pre></td>
+    </tr>
+    <tr>
+        <td>max_sub_array</td>
         <td>Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum. A subarray is a contiguous part of an array.</td>
         <td><pre>nums = [-2,1,-3,4,-1,2,1,-5,4]<br/>
-# 6</br>Explanation: [4,-1,2,1] has the largest sum = 6.
+# 6<br/>Explanation:<br/>[4,-1,2,1] has the largest sum = 6.
 </pre></td>
     </tr>
     <tr>
