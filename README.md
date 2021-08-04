@@ -15,10 +15,16 @@ You can use this fragments in your applications to implement some pieces of func
         <td><h3>letcode</h3></td>
     </tr>
     <tr>
+        <td>middle_node</td>
+        <td>Given the head of a singly linked list, return the middle node of the linked list. If there are two middle nodes, return the second middle node</td>
+        <td><pre>head = [1, 2, 3, 4, 5]<br/>
+# [3, 4, 5]</br>Explanation:<br/>The middle node of the list is node 3</pre></td>
+    </tr>
+    <tr>
         <td>has_cycle</td>
-        <td>Given head, the head of a linked list, determine if the linked list has a cycle in it. There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to. Note that pos is not passed as a parameter. Return true if there is a cycle in the linked list. Otherwise, return false.</td>
+        <td>Given head, the head of a linked list, determine if the linked list has a cycle in it. There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to. Note that pos is not passed as a parameter. Return true if there is a cycle in the linked list. Otherwise, return false</td>
         <td><pre>head = [3,2,0,-4], pos = 1<br/>
-# true</br>Explanation:<br/>There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed)</pre></td>
+# true</br>Explanation:<br/>There is a cycle in the linked list, where the tail<br/>connects to the 1st node (0-indexed)</pre></td>
     </tr>
     <tr>
         <td>count_bits</td>
